@@ -605,7 +605,7 @@ body {
   .mobile-nav.is-open {
     display: block; } }
 
-section.about {
+section.topBar {
   height: 700px;
   background-color: #2575BE;
   background-image: url(../img/home.png);
