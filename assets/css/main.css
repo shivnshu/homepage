@@ -605,6 +605,14 @@ body {
   .mobile-nav.is-open {
     display: block; } }
 
+section.about {
+  height: 700px;
+  background-color: #2575BE;
+  background-image: url(../img/home.png);
+  background-position: center 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
@@ -612,3 +620,7 @@ body {
   @media (max-width: 775px) {
     .home-wrap {
       display: block; } }
+
+.home-section {
+  -ms-flex: 1;
+      flex: 1; }
