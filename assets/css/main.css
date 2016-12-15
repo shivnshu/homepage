@@ -606,12 +606,27 @@ body {
     display: block; } }
 
 section.topBar {
-  height: 700px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2575BE;
   background-image: url(../img/home.png);
-  background-position: center 50px;
+  background-position: calc(50% + 67.5px) 50px;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+
+@media (max-width: 775px) {
+  section.topBar {
+    background-position: center 140px;
+    background-size: 100%;
+    height: calc(100vh - 90px); } }
+
+section.about .wrapper {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin-left: auto;
+  margin-right: auto; }
 
 .home-wrap {
   display: -ms-flexbox;
