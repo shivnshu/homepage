@@ -3,7 +3,7 @@ section.about
         text-align: center
 
     .about-block
-        height: 55vh
+        // height: 55vh
         width: 775px
         background-color: rgba(37, 117, 190,.2)
         margin-left: auto
@@ -13,6 +13,40 @@ section.about
             width: 97%
 
         .left-about
-            max-width: 20%
-            max-height: 100%
-            padding-top: 20px
+            float: left
+            width: 35%
+            height: 100%
+            vertical-align: middle
+            img
+                max-width: 90%
+                display: block
+                margin-left: auto
+                margin-right: auto
+                margin-top: 50px
+
+        .right-about
+            float: right
+            height: 100%
+            width: 60%
+            .profile-info
+                p.name
+                    font-size: 30px
+                    margin: 50px
+                    margin-bottom: 0
+                p.desc
+                    font-size: 20px
+                    padding-left: 50px
+            hr
+                background-color: red
+                height: 1px
+                margin-right: 20px
+
+            .profile-list
+                margin: 0
+                dt
+                    font-weight: bold
+                    float: left
+                    line-height: 30px
+                dd
+                    margin-left: 150px
+                    line-height: 30px
