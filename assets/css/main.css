@@ -625,12 +625,22 @@ section.topBar {
     background-size: 90%;
     height: calc(100vh - 90px); } }
 
-section.about .wrapper {
-  width: 200px;
-  height: 200px;
-  background: red;
+section.about h2 {
+  text-align: center; }
+
+section.about .about-block {
+  height: 55vh;
+  width: 775px;
+  background-color: rgba(37, 117, 190, 0.2);
   margin-left: auto;
   margin-right: auto; }
+  @media (max-width: 950px) {
+    section.about .about-block {
+      width: 97%; } }
+  section.about .about-block .left-about {
+    max-width: 20%;
+    max-height: 100%;
+    padding-top: 20px; }
 
 .home-wrap {
   display: -ms-flexbox;
