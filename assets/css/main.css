@@ -672,13 +672,17 @@ section.about .about-block {
         line-height: 30px; }
   section.about .about-block .social-media {
     clear: both;
-    background-color: white;
     padding: 10px; }
     section.about .about-block .social-media ul {
       text-align: center;
-      list-style: none; }
+      list-style: none;
+      padding: 0; }
       section.about .about-block .social-media ul li {
-        display: inline; }
+        display: inline;
+        margin: 9%; }
+        section.about .about-block .social-media ul li a {
+          width: 100px;
+          height: 100px; }
 
 .home-wrap {
   display: -ms-flexbox;
