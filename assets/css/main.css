@@ -692,6 +692,13 @@ section.about .about-block {
         padding-bottom: 5px;
         border-radius: 20px; }
 
+section.about .about-content {
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
