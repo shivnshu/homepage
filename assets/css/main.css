@@ -683,8 +683,8 @@ section.about .about-block {
         position: relative;
         width: 40px;
         float: left;
-        color: black;
-        background-color: #ff33cc;
+        color: white;
+        background-color: rgba(128, 0, 0, 0.6);
         margin-top: 20px;
         margin-left: 100px;
         text-align: center;
