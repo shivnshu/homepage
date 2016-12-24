@@ -524,6 +524,8 @@ body {
     margin-bottom: 10px; }
     .home-wrap header .site-nav li:last-child {
       margin-bottom: 0; }
+    .home-wrap header .site-nav li a {
+      color: maroon; }
   .home-wrap header .email-link {
     display: block;
     text-align: right;
@@ -626,14 +628,17 @@ section.topBar {
     height: calc(100vh - 90px); } }
 
 section.about h2 {
-  text-align: center; }
+  text-align: center;
+  color: maroon; }
 
 section.about .about-block {
   width: 775px;
-  background-color: rgba(37, 117, 190, 0.2);
+  background-color: rgba(51, 204, 204, 0.4);
   margin-left: auto;
   margin-right: auto;
-  position: relative; }
+  position: relative;
+  padding-bottom: 90px;
+  border-radius: 30px; }
   @media (max-width: 950px) {
     section.about .about-block {
       width: 97%; } }
@@ -664,25 +669,28 @@ section.about .about-block {
     section.about .about-block .right-about .profile-list {
       margin: 0; }
       section.about .about-block .right-about .profile-list dt {
-        font-weight: bold;
+        font-weight: 900;
         float: left;
         line-height: 30px; }
       section.about .about-block .right-about .profile-list dd {
         margin-left: 150px;
         line-height: 30px; }
   section.about .about-block .social-media {
-    clear: both;
-    padding: 10px; }
+    clear: both; }
     section.about .about-block .social-media ul {
-      text-align: center;
-      list-style: none;
-      padding: 0; }
-      section.about .about-block .social-media ul li {
-        display: inline;
-        margin: 9%; }
-        section.about .about-block .social-media ul li a {
-          width: 100px;
-          height: 100px; }
+      list-style: none; }
+      section.about .about-block .social-media ul li a {
+        position: relative;
+        width: 40px;
+        float: left;
+        color: black;
+        background-color: #ff33cc;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px; }
 
 .home-wrap {
   display: -ms-flexbox;
