@@ -708,10 +708,59 @@ section.about .about-content .profile-text {
   margin-left: 5%;
   margin-right: 5%; }
 
-section.skills {
-  background-color: red;
-  height: 50px;
-  width: 50px; }
+section.skills h2 {
+  text-align: center;
+  color: maroon; }
+
+section.skills div.programming-div h4 {
+  text-align: center; }
+
+section.skills div.programming-div .programming-lang {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 775px; }
+
+section.skills div.develop-div h4 {
+  text-align: center; }
+
+section.skills div.develop-div .develop-env {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 775px; }
+
+section.skills div.operating-div h4 {
+  text-align: center; }
+
+section.skills div.operating-div .operating-sys {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 775px; }
+
+section.skills div.tools-div h4 {
+  text-align: center; }
+
+section.skills div.tools-div .tools-pkgs {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 775px; }
+
+section.skills div.courses-div h4 {
+  text-align: center; }
+
+section.skills div.courses-div .courses {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 775px; }
 
 .home-wrap {
   display: -ms-flexbox;
