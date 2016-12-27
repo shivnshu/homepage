@@ -710,7 +710,8 @@ section.about .about-content .profile-text {
 
 section.skills h2 {
   text-align: center;
-  color: maroon; }
+  color: maroon;
+  margin-top: 5%; }
 
 section.skills div.programming-div h4 {
   text-align: center; }
@@ -762,10 +763,10 @@ section.skills div.courses-div .courses {
   height: 500px;
   width: 775px; }
 
-section.projects {
-  background-color: red;
-  height: 500px;
-  width: 775px; }
+section.projects h2 {
+  margin-top: 5%;
+  text-align: center;
+  color: maroon; }
 
 .home-wrap {
   display: -ms-flexbox;
