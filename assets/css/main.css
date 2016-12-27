@@ -708,6 +708,11 @@ section.about .about-content .profile-text {
   margin-left: 5%;
   margin-right: 5%; }
 
+section.skills {
+  background-color: red;
+  height: 50px;
+  width: 50px; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
