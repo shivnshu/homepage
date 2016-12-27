@@ -721,7 +721,7 @@ section.skills div.programming-div .programming-lang {
   margin-left: auto;
   margin-right: auto;
   height: 500px;
-  width: 775px; }
+  width: 900px; }
 
 section.skills div.develop-div h4 {
   text-align: center; }
@@ -731,7 +731,7 @@ section.skills div.develop-div .develop-env {
   margin-left: auto;
   margin-right: auto;
   height: 500px;
-  width: 775px; }
+  width: 900px; }
 
 section.skills div.operating-div h4 {
   text-align: center; }
@@ -741,7 +741,7 @@ section.skills div.operating-div .operating-sys {
   margin-left: auto;
   margin-right: auto;
   height: 500px;
-  width: 775px; }
+  width: 900px; }
 
 section.skills div.tools-div h4 {
   text-align: center; }
@@ -751,7 +751,7 @@ section.skills div.tools-div .tools-pkgs {
   margin-left: auto;
   margin-right: auto;
   height: 500px;
-  width: 775px; }
+  width: 900px; }
 
 section.skills div.courses-div h4 {
   text-align: center; }
@@ -761,11 +761,35 @@ section.skills div.courses-div .courses {
   margin-left: auto;
   margin-right: auto;
   height: 500px;
-  width: 775px; }
+  width: 900px; }
 
-section.projects h2 {
+section.projects-section h2 {
   margin-top: 5%;
   text-align: center;
+  color: maroon; }
+
+section.projects-section div.projects {
+  background-color: white;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+  section.projects-section div.projects div.project-first {
+    background-color: red;
+    width: 50%;
+    height: 300px; }
+  section.projects-section div.projects div.project-second {
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    margin-left: 50%; }
+  section.projects-section div.projects div.project-third {
+    background-color: red;
+    width: 50%;
+    height: 300px; }
+
+section.education-section h2 {
+  text-align: center;
+  margin-top: 5%;
   color: maroon; }
 
 .home-wrap {
