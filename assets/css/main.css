@@ -762,6 +762,11 @@ section.skills div.courses-div .courses {
   height: 500px;
   width: 775px; }
 
+section.projects {
+  background-color: red;
+  height: 500px;
+  width: 775px; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
