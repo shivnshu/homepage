@@ -879,10 +879,21 @@ section.contacts h2 {
 
 section.contacts div.contact-div {
   width: 900px;
-  height: 500px;
   background-color: white;
   margin-left: auto;
   margin-right: auto; }
+  section.contacts div.contact-div dl.contact-info {
+    padding: 30px; }
+    section.contacts div.contact-div dl.contact-info dt {
+      font-size: 15px;
+      width: 150px;
+      float: left;
+      clear: left;
+      font-weight: 500;
+      margin-bottom: 30px; }
+    section.contacts div.contact-div dl.contact-info dd {
+      font-size: 14px;
+      margin-bottom: 30px; }
 
 .home-wrap {
   display: -ms-flexbox;
