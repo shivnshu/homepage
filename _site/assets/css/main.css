@@ -804,8 +804,19 @@ section.skills div.courses-div .courses {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 900px; }
+  width: 900px;
+  padding: 10px; }
+  section.skills div.courses-div .courses ul {
+    list-style: none;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px; }
+    section.skills div.courses-div .courses ul li {
+      display: inline; }
 
 section.projects-section h2 {
   margin-top: 5%;
