@@ -840,21 +840,50 @@ section.education-section h2 {
 section.education-section div.education {
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
   width: 900px; }
   section.education-section div.education div.b-tech {
-    background-color: red;
+    background-color: white;
     width: 50%;
-    height: 100px; }
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    section.education-section div.education div.b-tech h4 {
+      color: #414141;
+      font-weight: 300;
+      margin: 0; }
+    section.education-section div.education div.b-tech p {
+      color: #878787;
+      font-weight: 200;
+      margin: 0; }
   section.education-section div.education div.twelth {
-    background-color: red;
+    background-color: white;
     width: 50%;
-    height: 100px;
-    margin-left: 50%; }
+    margin-left: 50%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    section.education-section div.education div.twelth h4 {
+      color: #414141;
+      font-weight: 300;
+      margin: 0; }
+    section.education-section div.education div.twelth p {
+      color: #878787;
+      font-weight: 200;
+      margin: 0; }
   section.education-section div.education div.tenth {
-    background-color: red;
+    background-color: white;
     width: 50%;
-    height: 100px; }
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    section.education-section div.education div.tenth h4 {
+      color: #414141;
+      font-weight: 300;
+      margin: 0; }
+    section.education-section div.education div.tenth p {
+      color: #878787;
+      font-weight: 200;
+      margin: 0; }
 
 section.achievements-section h2 {
   text-align: center;
@@ -896,6 +925,9 @@ section.contacts div.contact-div {
     section.contacts div.contact-div dl.contact-info dd {
       font-size: 14px;
       margin-bottom: 30px; }
+
+section.footer {
+  height: 100px; }
 
 .home-wrap {
   display: -ms-flexbox;
