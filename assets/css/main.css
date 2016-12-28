@@ -720,8 +720,19 @@ section.skills div.programming-div .programming-lang {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 900px; }
+  width: 900px;
+  padding: 10px; }
+  section.skills div.programming-div .programming-lang ul {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 40px; }
+    section.skills div.programming-div .programming-lang ul li {
+      display: inline; }
 
 section.skills div.develop-div h4 {
   text-align: center; }
@@ -730,8 +741,19 @@ section.skills div.develop-div .develop-env {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 900px; }
+  width: 900px;
+  padding: 10px; }
+  section.skills div.develop-div .develop-env ul {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 40px; }
+    section.skills div.develop-div .develop-env ul li {
+      display: inline; }
 
 section.skills div.operating-div h4 {
   text-align: center; }
@@ -740,8 +762,19 @@ section.skills div.operating-div .operating-sys {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 900px; }
+  width: 900px;
+  padding: 10px; }
+  section.skills div.operating-div .operating-sys ul {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 40px; }
+    section.skills div.operating-div .operating-sys ul li {
+      display: inline; }
 
 section.skills div.tools-div h4 {
   text-align: center; }
@@ -750,8 +783,19 @@ section.skills div.tools-div .tools-pkgs {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 900px; }
+  width: 900px;
+  padding: 10px; }
+  section.skills div.tools-div .tools-pkgs ul {
+    list-style: none;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px; }
+    section.skills div.tools-div .tools-pkgs ul li {
+      display: inline; }
 
 section.skills div.courses-div h4 {
   text-align: center; }
