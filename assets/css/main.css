@@ -491,6 +491,17 @@ body {
   width: 135px;
   background: white;
   padding: 30px 0; }
+  .home-wrap header .button-scroll-top {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    border-radius: 25px;
+    text-align: center; }
+    .home-wrap header .button-scroll-top i {
+      margin-top: 10px; }
   .home-wrap header .header-position {
     position: fixed;
     top: 30px;
