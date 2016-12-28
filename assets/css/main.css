@@ -726,11 +726,9 @@ section.skills div.programming-div .programming-lang {
     list-style: none;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    padding: 0;
-    margin-left: 40px;
-    margin-right: 40px; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0; }
     section.skills div.programming-div .programming-lang ul li {
       display: inline; }
 
@@ -747,11 +745,9 @@ section.skills div.develop-div .develop-env {
     list-style: none;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    padding: 0;
-    margin-left: 40px;
-    margin-right: 40px; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0; }
     section.skills div.develop-div .develop-env ul li {
       display: inline; }
 
@@ -768,11 +764,9 @@ section.skills div.operating-div .operating-sys {
     list-style: none;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    padding: 0;
-    margin-left: 40px;
-    margin-right: 40px; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0; }
     section.skills div.operating-div .operating-sys ul li {
       display: inline; }
 
@@ -790,10 +784,8 @@ section.skills div.tools-div .tools-pkgs {
     padding: 0;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
     section.skills div.tools-div .tools-pkgs ul li {
       display: inline; }
 
@@ -811,10 +803,8 @@ section.skills div.courses-div .courses {
     padding: 0;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
     section.skills div.courses-div .courses ul li {
       display: inline; }
 
