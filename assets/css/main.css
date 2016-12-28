@@ -841,8 +841,20 @@ section.education-section div.education {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  width: 900px;
-  height: 500px; }
+  width: 900px; }
+  section.education-section div.education div.b-tech {
+    background-color: red;
+    width: 50%;
+    height: 100px; }
+  section.education-section div.education div.twelth {
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    margin-left: 50%; }
+  section.education-section div.education div.tenth {
+    background-color: red;
+    width: 50%;
+    height: 100px; }
 
 section.achievements-section h2 {
   text-align: center;
