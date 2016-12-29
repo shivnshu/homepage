@@ -538,10 +538,11 @@ body {
       margin-bottom: 0; }
     .home-wrap header .site-nav li a {
       color: maroon; }
-  .home-wrap header .email-link {
+  .home-wrap header .blog-link {
     display: block;
     text-align: right;
-    padding-right: 20px; }
+    padding-right: 20px;
+    color: maroon; }
   .home-wrap header .mobile-nav-toggle {
     display: none;
     width: 50px;
@@ -982,7 +983,11 @@ section.contacts div.contact-div {
         text-align: center; }
 
 section.footer {
-  height: 100px; }
+  text-align: center;
+  padding: 20px; }
+  section.footer p {
+    margin: 0;
+    color: #878787; }
 
 .home-wrap {
   display: -ms-flexbox;
