@@ -922,6 +922,17 @@ section.projects-section div.projects {
       font-weight: 700;
       color: black; }
 
+@media (max-width: 670px) {
+  div.projects div.project-header {
+    margin-top: 20px; }
+  div.projects div.project-first {
+    width: 100% !important; }
+  div.projects div.project-second {
+    width: 100% !important;
+    margin: 0 !important; }
+  div.projects div.project-third {
+    width: 100% !important; } }
+
 section.education-section h2 {
   text-align: center;
   margin-top: 5%;
@@ -981,6 +992,17 @@ section.education-section div.education {
       color: #878787;
       font-weight: 200;
       margin: 0; }
+
+@media (max-width: 670px) {
+  div.education div.education-header {
+    margin-top: 20px; }
+  div.education div.b-tech {
+    width: 100% !important; }
+  div.education div.twelth {
+    width: 100% !important;
+    margin-left: 0 !important; }
+  div.education div.tenth {
+    width: 100% !important; } }
 
 section.achievements-section h2 {
   text-align: center;
