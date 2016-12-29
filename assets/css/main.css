@@ -723,6 +723,24 @@ section.about .about-content .profile-text {
   margin-left: 5%;
   margin-right: 5%; }
 
+@media (max-width: 670px) {
+  .about-block {
+    padding-top: 1px; }
+    .about-block .left-about {
+      float: none !important;
+      width: 100% !important; }
+    .about-block .right-about {
+      float: none !important;
+      width: 100% !important;
+      text-align: center; }
+      .about-block .right-about hr {
+        margin-left: 20px;
+        margin-right: 20px !important; }
+      .about-block .right-about .profile-list {
+        margin-left: 10% !important; }
+        .about-block .right-about .profile-list dd {
+          margin-left: 30% !important; } }
+
 section.skills h2 {
   text-align: center;
   color: maroon;

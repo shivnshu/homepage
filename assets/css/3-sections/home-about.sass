@@ -17,9 +17,7 @@ section.about
         .left-about
             float: left
             width: 35%
-            // height: 80%
             vertical-align: middle
-            // position: absolute
             img
                 max-width: 90%
                 display: block
@@ -29,15 +27,12 @@ section.about
 
         .right-about
             float: right
-            // position: absolute
-            // height: 80%
             width: 60%
             .profile-info
                 p.name
                     font-size: 30px
                     margin: 50px
                     margin-bottom: 0
-                    // font-weight: 900
                 p.desc
                     font-size: 20px
                     padding-left: 50px
@@ -90,3 +85,21 @@ section.about
             line-height: 1.8
             margin-left: 5%
             margin-right: 5%
+
+@media(max-width: 670px)
+    .about-block
+        padding-top: 1px
+        .left-about
+            float: none !important
+            width: 100% !important
+        .right-about
+            float: none !important
+            width: 100% !important
+            text-align: center
+            hr
+                margin-left: 20px
+                margin-right: 20px !important
+            .profile-list
+                margin-left: 10% !important
+                dd
+                    margin-left: 30% !important
