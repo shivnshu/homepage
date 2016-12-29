@@ -4,16 +4,14 @@ section.about
         color: rgb(128, 0, 0)
 
     .about-block
-        // height: 55vh
         width: 775px
         background-color: rgba(51, 204, 204,.4)
         margin-left: auto
         margin-right: auto
         position: relative
-        padding-bottom: 90px
         border-radius: 30px
 
-        @media(max-width: 950px)
+        @media(max-width: 1070px)
             width: 97%
 
         .left-about
@@ -62,8 +60,18 @@ section.about
             clear: both
             ul
                 list-style: none
+                display: flex
+                justify-content: space-around
+                padding: 20px
                 li
+                    display: inline
                     a
+                        width: 40px
+                        padding: 12px 0
+                        border-radius: 20px
+                        text-align: center
+                        background-color: #BD5248
+                        color: white
 
     .about-content
         .profile-button
