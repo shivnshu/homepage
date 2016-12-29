@@ -831,28 +831,50 @@ section.projects-section div.projects {
   section.projects-section div.projects div.project-first {
     background-color: white;
     width: 50%;
-    text-align: center; }
+    text-align: center;
+    padding: 20px 0; }
     section.projects-section div.projects div.project-first h4 {
-      margin: 0; }
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-first .course {
+      font-size: 15px;
+      color: #878787; }
     section.projects-section div.projects div.project-first p {
-      margin: 0; }
+      margin: 10px 0;
+      color: #878787; }
+    section.projects-section div.projects div.project-first .date {
+      font-weight: 700;
+      color: black; }
   section.projects-section div.projects div.project-second {
     background-color: white;
     width: 50%;
     margin-left: 50%;
-    text-align: center; }
+    text-align: center;
+    padding: 20px 0; }
     section.projects-section div.projects div.project-second h4 {
-      margin: 0; }
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-second .course {
+      font-size: 15px;
+      color: #878787; }
     section.projects-section div.projects div.project-second p {
-      margin: 0; }
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-second .date {
+      font-weight: 700;
+      color: black; }
   section.projects-section div.projects div.project-third {
     background-color: white;
     width: 50%;
-    text-align: center; }
+    text-align: center;
+    padding: 20px 0; }
     section.projects-section div.projects div.project-third h4 {
-      margin: 0; }
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-third .course {
+      font-size: 15px;
+      color: #878787; }
     section.projects-section div.projects div.project-third p {
-      margin: 0; }
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-third .date {
+      font-weight: 700;
+      color: black; }
 
 section.education-section h2 {
   text-align: center;
