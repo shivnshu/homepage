@@ -544,31 +544,34 @@ body {
     margin-right: 20px;
     -ms-flex-align: center;
         align-items: center;
-    cursor: pointer; }
+    cursor: pointer;
+    background: transparent; }
+    .home-wrap header .mobile-nav-toggle:selection {
+      background: transparent; }
     .home-wrap header .mobile-nav-toggle span,
     .home-wrap header .mobile-nav-toggle span:before,
     .home-wrap header .mobile-nav-toggle span:after {
       content: "";
-      width: 100%;
       display: block;
       height: 2px;
+      width: 100%;
       background: #333;
       position: relative;
       transition: all 0.3s ease-in-out; }
-    .home-wrap header .mobile-nav-toggle span::before {
+    .home-wrap header .mobile-nav-toggle span:before {
       top: 15px; }
-    .home-wrap header .mobile-nav-toggle span::after {
-      bottom: 17px; }
+    .home-wrap header .mobile-nav-toggle span:after {
+      top: -17px; }
     .home-wrap header .mobile-nav-toggle.is-open span {
       background: transparent; }
-    .home-wrap header .mobile-nav-toggle.is-open span::before,
-    .home-wrap header .mobile-nav-toggle.is-open span::after {
+    .home-wrap header .mobile-nav-toggle.is-open span:before,
+    .home-wrap header .mobile-nav-toggle.is-open span:after {
       -webkit-transform-origin: center;
               transform-origin: center;
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
       top: 0; }
-    .home-wrap header .mobile-nav-toggle.is-open span::after {
+    .home-wrap header .mobile-nav-toggle.is-open span:before {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg); }
 
@@ -581,6 +584,10 @@ body {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   transition: all 0.3s ease-in-out; }
+  .mobile-nav a {
+    color: #999; }
+    .mobile-nav a:hover, .mobile-nav a:active {
+      color: #666; }
   .mobile-nav ul {
     list-style: none;
     margin: 0;
@@ -612,7 +619,9 @@ body {
       display: -ms-flexbox;
       display: flex; }
   .mobile-nav.is-open {
-    display: block; } }
+    display: block;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
 
 section.topBar {
   height: 100vh;

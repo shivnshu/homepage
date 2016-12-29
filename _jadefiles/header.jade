@@ -7,7 +7,7 @@ mixin nav-content()
         li: a(href="#achievements") Achievements
         li: a(href="#contact") Contact
 
-.mobile-nav.is-open
+.mobile-nav
     +nav-content()
 
 header
@@ -16,5 +16,7 @@ header
         
         nav.site-nav
             +nav-content()
+            
         a(href="").blog-link My Blog
+        
         .mobile-nav-toggle: span

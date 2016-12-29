@@ -48,43 +48,111 @@
         padding-right: 20px
         color: rgb(128, 0, 0)
 
+
+    //
+    // .mobile-nav-toggle
+    //     display: none
+    //     width: 50px
+    //     height: 50px
+    //     margin-right: 20px
+    //     align-items: center
+    //     cursor: pointer
+    //
+    //     span,
+    //     span:before,
+    //     span:after
+    //         content: ""
+    //         width: 100%
+    //         display: block
+    //         height: 2px
+    //         background: #333
+    //         position: relative
+    //
+    //         transition: all 0.3s ease-in-out
+    //
+    //     span::before
+    //         top: 15px
+    //
+    //     span::after
+    //         bottom: 17px
+    //
+    //     &.is-open span
+    //         background: transparent
+    //
+    //     &.is-open span::before,
+    //     &.is-open span::after
+    //         transform-origin: center
+    //         transform: rotate(45deg)
+    //         top: 0
+    //
+    //     &.is-open span::after
+    //         transform: rotate(-45deg)
+
+
     .mobile-nav-toggle
         display: none
         width: 50px
         height: 50px
+        //background: pink
         margin-right: 20px
         align-items: center
         cursor: pointer
+
+        &:selection
+            background: transparent
+
+        &:-moz-selection
+        background: transparent
 
         span,
         span:before,
         span:after
             content: ""
-            width: 100%
             display: block
             height: 2px
+            width: 100%
             background: #333
             position: relative
 
             transition: all 0.3s ease-in-out
 
-        span::before
+        span:before
             top: 15px
 
-        span::after
-            bottom: 17px
+        span:after
+            top: -17px
 
         &.is-open span
             background: transparent
 
-        &.is-open span::before,
-        &.is-open span::after
+        &.is-open span:before,
+        &.is-open span:after
             transform-origin: center
             transform: rotate(45deg)
             top: 0
 
-        &.is-open span::after
+        &.is-open span:before
             transform: rotate(-45deg)
+
+
+
+
+// .mobile-nav.is-open
+//     display: none
+//     position: absolute
+//     width: 100%
+//     background: white
+//     padding: 30px 0 20px
+//     transform: translateY(-100%)
+//     transition: all 0.3s ease-in-out
+//     ul
+//         list-style: none
+//         margin: 0
+//         padding: 0
+//
+//     li
+//         text-align: center
+//         margin-bottom: 10px
 
 .mobile-nav
     display: none
@@ -94,6 +162,13 @@
     padding: 30px 0 20px
     transform: translateY(-100%)
     transition: all 0.3s ease-in-out
+
+    a
+        color: #999
+
+        &:hover, &:active
+            color: #666
+
     ul
         list-style: none
         margin: 0
@@ -131,3 +206,4 @@
 
     .mobile-nav.is-open
         display: block
+        transform: translateY(0%)
