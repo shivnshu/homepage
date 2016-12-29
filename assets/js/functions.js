@@ -29,6 +29,19 @@ $(document).ready(function (){
               $(this).addClass('animated fadeInUp visible')
           }
        });
+
+       $('.animateItLeft').each(function () {
+          if (isScrolledIntoView(this) === true) {
+              $(this).addClass('animated fadeInLeft visible')
+          }
+       });
+
+       $('.animateItRight').each(function () {
+          if (isScrolledIntoView(this) === true) {
+              $(this).addClass('animated fadeInRight visible')
+          }
+       });
+
     });
 
 });
