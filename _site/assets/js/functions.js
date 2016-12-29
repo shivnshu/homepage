@@ -16,7 +16,7 @@ $(document).ready(function (){
         if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
         else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
       });
-      
+
 
     $(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
@@ -30,6 +30,7 @@ $(document).ready(function (){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+
 
     $(window).scroll(function () {
        $('.animateItUp').each(function () {
