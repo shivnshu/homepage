@@ -828,11 +828,15 @@ section.projects-section div.projects {
   width: 900px;
   margin-left: auto;
   margin-right: auto; }
+  section.projects-section div.projects div.project-header {
+    width: 100%;
+    height: 10px;
+    background-color: #A7E5E7; }
   section.projects-section div.projects div.project-first {
     background-color: white;
     width: 50%;
     text-align: center;
-    padding: 20px 0; }
+    padding-bottom: 20px; }
     section.projects-section div.projects div.project-first h4 {
       margin: 10px 0; }
     section.projects-section div.projects div.project-first .course {
@@ -849,14 +853,15 @@ section.projects-section div.projects {
     width: 50%;
     margin-left: 50%;
     text-align: center;
-    padding: 20px 0; }
+    padding-bottom: 20px; }
     section.projects-section div.projects div.project-second h4 {
       margin: 10px 0; }
     section.projects-section div.projects div.project-second .course {
       font-size: 15px;
       color: #878787; }
     section.projects-section div.projects div.project-second p {
-      margin: 10px 0; }
+      margin: 10px 0;
+      color: #878787; }
     section.projects-section div.projects div.project-second .date {
       font-weight: 700;
       color: black; }
@@ -864,14 +869,15 @@ section.projects-section div.projects {
     background-color: white;
     width: 50%;
     text-align: center;
-    padding: 20px 0; }
+    padding-bottom: 20px; }
     section.projects-section div.projects div.project-third h4 {
       margin: 10px 0; }
     section.projects-section div.projects div.project-third .course {
       font-size: 15px;
       color: #878787; }
     section.projects-section div.projects div.project-third p {
-      margin: 10px 0; }
+      margin: 10px 0;
+      color: #878787; }
     section.projects-section div.projects div.project-third .date {
       font-weight: 700;
       color: black; }
@@ -885,16 +891,20 @@ section.education-section div.education {
   margin-left: auto;
   margin-right: auto;
   width: 900px; }
+  section.education-section div.education div.education-header {
+    width: 100%;
+    height: 10px;
+    background-color: #A7E5E7; }
   section.education-section div.education div.b-tech {
     background-color: white;
     width: 50%;
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px; }
     section.education-section div.education div.b-tech h4 {
       color: #414141;
       font-weight: 300;
-      margin: 0; }
+      margin: 0;
+      margin-top: 15px; }
     section.education-section div.education div.b-tech p {
       color: #878787;
       font-weight: 200;
@@ -904,12 +914,12 @@ section.education-section div.education {
     width: 50%;
     margin-left: 50%;
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px; }
     section.education-section div.education div.twelth h4 {
       color: #414141;
       font-weight: 300;
-      margin: 0; }
+      margin: 0;
+      margin-top: 15px; }
     section.education-section div.education div.twelth p {
       color: #878787;
       font-weight: 200;
@@ -918,12 +928,12 @@ section.education-section div.education {
     background-color: white;
     width: 50%;
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px; }
     section.education-section div.education div.tenth h4 {
       color: #414141;
       font-weight: 300;
-      margin: 0; }
+      margin: 0;
+      margin-top: 15px; }
     section.education-section div.education div.tenth p {
       color: #878787;
       font-weight: 200;
