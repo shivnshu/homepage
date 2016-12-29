@@ -650,7 +650,6 @@ section.about .about-block {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding-bottom: 90px;
   border-radius: 30px; }
   @media (max-width: 950px) {
     section.about .about-block {
@@ -691,19 +690,21 @@ section.about .about-block {
   section.about .about-block .social-media {
     clear: both; }
     section.about .about-block .social-media ul {
-      list-style: none; }
-      section.about .about-block .social-media ul li a {
-        position: relative;
-        width: 40px;
-        float: left;
-        color: white;
-        background-color: rgba(128, 0, 0, 0.6);
-        margin-top: 20px;
-        margin-left: 100px;
-        text-align: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 20px; }
+      list-style: none;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      padding: 20px; }
+      section.about .about-block .social-media ul li {
+        display: inline; }
+        section.about .about-block .social-media ul li a {
+          width: 40px;
+          padding: 12px 0;
+          border-radius: 20px;
+          text-align: center;
+          background-color: #BD5248;
+          color: white; }
 
 section.about .about-content .profile-button {
   margin-top: 35px;
