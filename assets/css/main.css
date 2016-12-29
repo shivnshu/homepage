@@ -501,7 +501,8 @@ body {
     border-radius: 25px;
     text-align: center; }
     .home-wrap header .button-scroll-top i {
-      margin-top: 10px; }
+      margin-top: 10px;
+      color: #A7E5E7; }
   .home-wrap header .header-position {
     position: fixed;
     top: 30px;
@@ -966,19 +967,19 @@ section.contacts div.contact-div {
   width: 900px;
   background-color: white;
   margin-left: auto;
-  margin-right: auto; }
-  section.contacts div.contact-div dl.contact-info {
-    padding: 30px; }
-    section.contacts div.contact-div dl.contact-info dt {
-      font-size: 15px;
-      width: 150px;
-      float: left;
-      clear: left;
-      font-weight: 500;
-      margin-bottom: 30px; }
-    section.contacts div.contact-div dl.contact-info dd {
-      font-size: 14px;
-      margin-bottom: 30px; }
+  margin-right: auto;
+  padding: 10px; }
+  section.contacts div.contact-div ul {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    section.contacts div.contact-div ul li {
+      display: inline; }
+      section.contacts div.contact-div ul li a {
+        padding: 10px 25px;
+        text-align: center; }
 
 section.footer {
   height: 100px; }
