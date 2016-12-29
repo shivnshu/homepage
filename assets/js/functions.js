@@ -17,6 +17,17 @@ $(document).ready(function (){
         else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
       });
 
+	$('a[href^="#"]').click(function(event) {
+
+	    var target = $( $(this).attr('href') );
+
+	    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').animate({
+	            scrollTop: target.offset().top
+	        }, 500);
+	    }
+	});
 
     $(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
