@@ -18,10 +18,10 @@ html {
   /* 3 */ }
 
 .inVisible {
-  display: none !important; }
+  visibility: hidden !important; }
 
 .visible {
-  display: block !important; }
+  visibility: visible !important; }
 
 /* Sections
    ========================================================================== */
