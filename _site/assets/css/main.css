@@ -497,19 +497,6 @@ body {
   width: 135px;
   background: white;
   padding: 30px 0; }
-  .home-wrap header .button-scroll-top {
-    display: none;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    position: fixed;
-    right: 3%;
-    bottom: 5%;
-    border-radius: 25px;
-    text-align: center; }
-    .home-wrap header .button-scroll-top i {
-      margin-top: 10px;
-      color: #33cccc; }
   .home-wrap header .header-position {
     position: fixed;
     top: 30px;
@@ -1064,6 +1051,19 @@ section.footer {
   section.footer p {
     margin: 0;
     color: #878787; }
+  section.footer .button-scroll-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    border-radius: 25px;
+    text-align: center; }
+    section.footer .button-scroll-top i {
+      margin-top: 10px;
+      color: #33cccc; }
 
 .home-wrap {
   display: -ms-flexbox;
