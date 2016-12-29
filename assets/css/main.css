@@ -531,12 +531,12 @@ body {
     .home-wrap header .site-nav li:last-child {
       margin-bottom: 0; }
     .home-wrap header .site-nav li a {
-      color: maroon; }
+      color: rgba(128, 0, 0, 0.5); }
   .home-wrap header .blog-link {
     display: block;
     text-align: right;
     padding-right: 20px;
-    color: maroon; }
+    color: rgba(128, 0, 0, 0.5); }
   .home-wrap header .mobile-nav-toggle {
     display: none;
     width: 50px;
@@ -595,6 +595,8 @@ body {
   .mobile-nav li {
     text-align: center;
     margin-bottom: 10px; }
+    .mobile-nav li a {
+      color: rgba(128, 0, 0, 0.5); }
 
 @media (max-width: 1070px) {
   .home-wrap header {
