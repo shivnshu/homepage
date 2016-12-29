@@ -502,7 +502,7 @@ body {
     text-align: center; }
     .home-wrap header .button-scroll-top i {
       margin-top: 10px;
-      color: #A7E5E7; }
+      color: #33cccc; }
   .home-wrap header .header-position {
     position: fixed;
     top: 30px;
@@ -623,7 +623,7 @@ section.topBar {
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2575BE;
+  background-color: #33cccc;
   background-image: url(../img/home.png);
   background-position: calc(50% + 40px) 50px;
   background-repeat: no-repeat;
