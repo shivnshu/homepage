@@ -595,7 +595,7 @@ body {
     text-align: center;
     margin-bottom: 10px; }
 
-@media (max-width: 775px) {
+@media (max-width: 1070px) {
   .home-wrap header {
     width: auto;
     padding: 20px 0; }
@@ -610,7 +610,7 @@ body {
       -ms-flex-align: center;
           align-items: center; }
     .home-wrap header .site-nav,
-    .home-wrap header .email-link {
+    .home-wrap header .blog-link {
       display: none; }
     .home-wrap header .logo {
       height: 45px; }
@@ -651,7 +651,7 @@ section.about .about-block {
   margin-right: auto;
   position: relative;
   border-radius: 30px; }
-  @media (max-width: 950px) {
+  @media (max-width: 1070px) {
     section.about .about-block {
       width: 97%; } }
   section.about .about-block .left-about {
@@ -737,6 +737,9 @@ section.skills div.programming-div .programming-lang {
   margin-right: auto;
   width: 900px;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.skills div.programming-div .programming-lang {
+      width: 97%; } }
   section.skills div.programming-div .programming-lang ul {
     list-style: none;
     display: -ms-flexbox;
@@ -756,6 +759,9 @@ section.skills div.develop-div .develop-env {
   margin-right: auto;
   width: 900px;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.skills div.develop-div .develop-env {
+      width: 97%; } }
   section.skills div.develop-div .develop-env ul {
     list-style: none;
     display: -ms-flexbox;
@@ -775,6 +781,9 @@ section.skills div.operating-div .operating-sys {
   margin-right: auto;
   width: 900px;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.skills div.operating-div .operating-sys {
+      width: 97%; } }
   section.skills div.operating-div .operating-sys ul {
     list-style: none;
     display: -ms-flexbox;
@@ -794,6 +803,9 @@ section.skills div.tools-div .tools-pkgs {
   margin-right: auto;
   width: 900px;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.skills div.tools-div .tools-pkgs {
+      width: 97%; } }
   section.skills div.tools-div .tools-pkgs ul {
     list-style: none;
     padding: 0;
@@ -813,6 +825,9 @@ section.skills div.courses-div .courses {
   margin-right: auto;
   width: 900px;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.skills div.courses-div .courses {
+      width: 97%; } }
   section.skills div.courses-div .courses ul {
     list-style: none;
     padding: 0;
@@ -832,6 +847,9 @@ section.projects-section div.projects {
   width: 900px;
   margin-left: auto;
   margin-right: auto; }
+  @media (max-width: 1070px) {
+    section.projects-section div.projects {
+      width: 97%; } }
   section.projects-section div.projects div.project-header {
     width: 100%;
     height: 10px;
@@ -895,6 +913,9 @@ section.education-section div.education {
   margin-left: auto;
   margin-right: auto;
   width: 900px; }
+  @media (max-width: 1070px) {
+    section.education-section div.education {
+      width: 97%; } }
   section.education-section div.education div.education-header {
     width: 100%;
     height: 10px;
@@ -954,6 +975,9 @@ section.achievements-section div.achievements {
   margin-left: auto;
   margin-right: auto;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.achievements-section div.achievements {
+      width: 97%; } }
   section.achievements-section div.achievements ul {
     padding: 0; }
     section.achievements-section div.achievements ul li {
@@ -972,6 +996,9 @@ section.contacts div.contact-div {
   margin-left: auto;
   margin-right: auto;
   padding: 10px; }
+  @media (max-width: 1070px) {
+    section.contacts div.contact-div {
+      width: 97%; } }
   section.contacts div.contact-div ul {
     list-style: none;
     display: -ms-flexbox;
