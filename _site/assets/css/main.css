@@ -634,7 +634,7 @@ section.topBar {
   section.topBar {
     background-size: 70%; } }
 
-@media (max-width: 775px) {
+@media (max-width: 1070px) {
   section.topBar {
     background-position: center 140px;
     background-size: 90%;
@@ -1022,7 +1022,7 @@ section.footer {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh; }
-  @media (max-width: 775px) {
+  @media (max-width: 1070px) {
     .home-wrap {
       display: block; } }
 
