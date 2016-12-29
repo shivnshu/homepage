@@ -629,6 +629,15 @@ section.topBar {
   background-position: calc(50% + 40px) 50px;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  section.topBar .output {
+    margin: 20px;
+    padding: 20px;
+    background: gray;
+    border-radius: 10px;
+    font-size: 80px;
+    width: 80px;
+    color: white;
+    float: left; }
 
 @media (max-width: 1050px) {
   section.topBar {
