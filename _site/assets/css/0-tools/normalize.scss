@@ -17,6 +17,14 @@ html {
   -webkit-text-size-adjust: 100%; /* 3 */
 }
 
+.inVisible {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
 /* Sections
    ========================================================================== */
 
