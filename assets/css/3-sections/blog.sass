@@ -3,11 +3,7 @@ div.blog-section
     // height: 500px
 
     div.posts
-        ul
-            list-style: none
-            margin: 0
-            padding: 0
-
+        position: relative
         background-color: white
         width: 50%
         height: 100vh
@@ -15,13 +11,29 @@ div.blog-section
         margin-right: auto
         padding: 0
 
-        .apost
-            width: 50%
-            margin: 0
-            padding: 0
-            // height: 500px
-            background-color: red
-
-        .col
-            margin-left: 0
+        .post-excerpt
             float: left
+            width: 50%
+            // background-color: red
+            text-align: center
+
+            .padded-content
+                padding: 50px
+
+
+                .title
+                    font-size: 18px
+                    color: black
+
+                .body
+                    color: rgba(0, 0, 0, 0.8)
+
+            .post-excerpt:hover
+                background-color: red
+
+        .breaker
+            clear: both
+        .end
+            width: 100%
+            text-align: center
+            padding-top: 40px
