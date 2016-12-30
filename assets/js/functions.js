@@ -17,6 +17,14 @@ $(document).ready(function (){
         else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
       });
 
+      $('.blog-link').click(function () {
+          $('.home-section').css('display', 'none');
+          $('.blog-section').css("display", "block");
+          $(".blog-link").css("color", "rgba(128, 0, 0, 1)");
+        //   console.log($('.home-section').css("display"));
+      });
+
+
 	$('a[href^="#"]').click(function(event) {
 
 	    var target = $( $(this).attr('href') );

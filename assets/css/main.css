@@ -536,7 +536,8 @@ body {
     display: block;
     text-align: right;
     padding-right: 20px;
-    color: rgba(128, 0, 0, 0.5); }
+    color: rgba(128, 0, 0, 0.5);
+    cursor: pointer; }
   .home-wrap header .mobile-nav-toggle {
     display: none;
     width: 50px;
