@@ -1102,21 +1102,26 @@ div.blog-section {
       height: 2px;
       background-image: linear-gradient(to right, rgba(192, 63, 63, 0), rgba(192, 63, 63, 0.75), transparent); }
     div.blog-section div.posts .apost {
-      background-color: red;
       width: 80%;
       margin-left: 5%;
-      height: 100px;
       margin-bottom: 20px;
       padding: 15px 5%;
       border-radius: 20px; }
-      div.blog-section div.posts .apost a {
-        font-size: 20px;
-        color: #4A4A4A; }
+      div.blog-section div.posts .apost:hover {
+        background-color: #e6e6e6; }
+      div.blog-section div.posts .apost a.title {
+        font-size: 25px;
+        color: #BD5248; }
       div.blog-section div.posts .apost .date {
-        margin: 0; }
+        margin: 0;
+        color: #1a1a1a;
+        font-size: 16px; }
       div.blog-section div.posts .apost .description {
         margin: 0;
-        padding: 0; }
+        margin: 10px 0;
+        color: #666666; }
+      div.blog-section div.posts .apost .continue:hover {
+        text-decoration: underline; }
 
 .home-wrap {
   display: -ms-flexbox;
