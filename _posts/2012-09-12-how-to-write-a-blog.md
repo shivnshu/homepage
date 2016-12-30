@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Second blog
 ---
 
-##Blog exp
-jfdrfghnjkgfgh
-#hgutfrfgbhjn
+second
+second
+second
+second
+second
+second

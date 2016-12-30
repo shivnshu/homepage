@@ -1083,24 +1083,32 @@ section.footer {
 div.blog-section {
   width: 100%; }
   div.blog-section div.posts {
+    position: relative;
     background-color: white;
     width: 50%;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
     padding: 0; }
-    div.blog-section div.posts ul {
-      list-style: none;
-      margin: 0;
-      padding: 0; }
-    div.blog-section div.posts .apost {
+    div.blog-section div.posts .post-excerpt {
+      float: left;
       width: 50%;
-      margin: 0;
-      padding: 0;
-      background-color: red; }
-    div.blog-section div.posts .col {
-      margin-left: 0;
-      float: left; }
+      text-align: center; }
+      div.blog-section div.posts .post-excerpt .padded-content {
+        padding: 50px; }
+        div.blog-section div.posts .post-excerpt .padded-content .title {
+          font-size: 18px;
+          color: black; }
+        div.blog-section div.posts .post-excerpt .padded-content .body {
+          color: rgba(0, 0, 0, 0.8); }
+      div.blog-section div.posts .post-excerpt:hover {
+        background-color: red; }
+    div.blog-section div.posts .breaker {
+      clear: both; }
+    div.blog-section div.posts .end {
+      width: 100%;
+      text-align: center;
+      padding-top: 40px; }
 
 .home-wrap {
   display: -ms-flexbox;

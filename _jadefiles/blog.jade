@@ -1,10 +1,22 @@
-div.posts
-    //- div.apost.col0
-    //- div.apost.col1
-    //- div.apost.col0
-    //- div.apost.col1
+div.posts#recent-posts
+
+    {% for post in site.posts %} 
     
-    ul {% for post in site.posts %} 
-        li.apost.col {{ post.title }}
-            p {{ post.excerpt }}
-        {% endfor %}
+    a.post-excerpt(href="{{ post.url }}")
+    
+        div.padded-content
+            div.title {{ post.title }}
+            //- info(datetime="{{ page.date | date: "%Y-%m-%d" }}") {{ post.date | date: "%b %Y" }}
+            {% if post.description %}
+            span.body {{ post.description | markdownify }}
+            {% else %}
+            span.body {{ post.excerpt | strip_html }}
+            {% endif %}
+        
+    {% endfor %}
+    
+    div.breaker
+    div.end
+        a(href="") More..
+
+script(src="../assets/js/blog.js")
