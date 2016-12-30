@@ -631,9 +631,8 @@ section.topBar {
   margin-right: auto;
   background-color: #33cccc;
   background-image: url(../img/home.png);
-  background-position: calc(50% + 40px) 50px;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-position: center 50px;
+  background-repeat: no-repeat; }
 
 @media (max-width: 1050px) {
   section.topBar {
