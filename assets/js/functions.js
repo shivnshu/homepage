@@ -21,7 +21,8 @@ $(document).ready(function (){
           $('.home-section').css('display', 'none');
           $('.blog-section').css("display", "block");
           $(".blog-link").css("color", "rgba(128, 0, 0, 1)");
-        //   console.log($('.home-section').css("display"));
+          $('.posts h2').addClass('animated fadeInUp')
+        //   $('.apost').addClass('animated fadeInUp')
       });
 
 
@@ -106,7 +107,12 @@ $(document).ready(function (){
        if(isScrolledIntoView("#contact-section")){
            $(".btn-5").css("color", "rgba(128, 0, 0, 0.5)");
            $(".btn-6").css("color", "rgba(128, 0, 0, 1)");
+           console.log("as");
        }
+
+    //    if(!isScrolledIntoView("#contact-section")){
+    //        $(".btn-6").css("color", "rgba(128, 0, 0, 0.5)");
+    //    }
 
        var wScroll = $(window).scrollTop() + 50;
 
