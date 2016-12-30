@@ -1,9 +1,9 @@
 div.posts#recent-posts
-    h2 Recent Posts
+    h2.inVisible Recent Posts
     hr
     {% for post in site.posts %}
-    
-    div.apost
+        
+    div.apost.inVisible
         a.title(href="{{ post.url }}") {{ post.title }}
         p.date {{ post.date | date: '%B %d, %Y' }}
         p.description {{ post.description }}
