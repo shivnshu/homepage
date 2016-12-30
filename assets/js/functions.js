@@ -62,6 +62,10 @@ $(document).ready(function (){
           }
        });
 
+       if(!isScrolledIntoView("#about-section")){
+           $(".btn-1").css("color", "rgba(128, 0, 0, 0.5)");
+       }
+
        if(isScrolledIntoView("#about-section")){
            $(".btn-1").css("color", "rgba(128, 0, 0, 1)");
            $(".btn-2").css("color", "rgba(128, 0, 0, 0.5)");
