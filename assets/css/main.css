@@ -1060,9 +1060,13 @@ section.contacts div.contact-div {
 section.footer {
   text-align: center;
   padding: 20px; }
-  section.footer p {
+  section.footer p.copyright {
     margin: 0;
     color: #878787; }
+  section.footer p.source-code {
+    color: #878787;
+    font-size: 13px;
+    margin: 0; }
   section.footer .button-scroll-top {
     display: none;
     width: 50px;
