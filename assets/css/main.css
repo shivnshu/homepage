@@ -1089,17 +1089,18 @@ div.blog-section {
     margin-left: auto;
     margin-right: auto;
     padding: 0; }
+    div.blog-section div.posts ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
     div.blog-section div.posts .apost {
       width: 50%;
       margin: 0;
       padding: 0;
-      height: 500px;
       background-color: red; }
-    div.blog-section div.posts .col0 {
+    div.blog-section div.posts .col {
       margin-left: 0;
       float: left; }
-    div.blog-section div.posts .col1 {
-      margin-left: 50%; }
 
 .home-wrap {
   display: -ms-flexbox;

@@ -1,5 +1,10 @@
 div.posts
-    div.apost.col0
-    div.apost.col1
-    div.apost.col0
+    //- div.apost.col0
     //- div.apost.col1
+    //- div.apost.col0
+    //- div.apost.col1
+    
+    ul {% for post in site.posts %} 
+        li.apost.col {{ post.title }}
+            p {{ post.excerpt }}
+        {% endfor %}
