@@ -96,6 +96,10 @@ $(document).ready(function (){
            $(".btn-6").css("color", "rgba(128, 0, 0, 1)");
        }
 
+       var wScroll = $(window).scrollTop() + 50;
+
+       $('section.topBar').css('background-position','center '+ wScroll*0.8 + 'px');
+
     });
 
 });
