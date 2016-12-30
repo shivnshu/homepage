@@ -1080,6 +1080,11 @@ section.footer {
       margin-top: 10px;
       color: #33cccc; }
 
+div.posts {
+  background-color: red;
+  width: 100%;
+  height: 100px; }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
