@@ -514,7 +514,7 @@ body {
     text-indent: 101%;
     white-space: nowrap;
     max-width: 135px;
-    background-image: url(/assets/img/rb.png);
+    background-image: url(../img/rb.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
