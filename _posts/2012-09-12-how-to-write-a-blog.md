@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second blog
+description: Second description
 ---
 
 second

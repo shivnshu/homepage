@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Third blog
+description: Third description
 ---
 
 thirdpost

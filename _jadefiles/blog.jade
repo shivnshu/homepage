@@ -1,1 +1,12 @@
 div.posts#recent-posts
+    h2 Recent Posts
+    hr
+    {% for post in site.posts %}
+    
+    div.apost
+        a(href="") {{ post.title }}
+        p.date {{ post.date | date: '%B %d, %Y' }}
+        p.description {{ post.description }}
+                
+    {% endfor %}
+    
