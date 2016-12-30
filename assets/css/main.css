@@ -1080,10 +1080,26 @@ section.footer {
       margin-top: 10px;
       color: #33cccc; }
 
-div.posts {
-  background-color: red;
-  width: 100%;
-  height: 100px; }
+div.blog-section {
+  width: 100%; }
+  div.blog-section div.posts {
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0; }
+    div.blog-section div.posts .apost {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+      height: 500px;
+      background-color: red; }
+    div.blog-section div.posts .col0 {
+      margin-left: 0;
+      float: left; }
+    div.blog-section div.posts .col1 {
+      margin-left: 50%; }
 
 .home-wrap {
   display: -ms-flexbox;
