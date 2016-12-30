@@ -1080,6 +1080,8 @@ section.footer {
     section.footer .button-scroll-top i {
       margin-top: 10px;
       color: #33cccc; }
+    section.footer .button-scroll-top:hover {
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); }
 
 div.blog-section {
   width: 100%; }
