@@ -4,9 +4,10 @@ div.posts#recent-posts
     {% for post in site.posts %}
     
     div.apost
-        a(href="") {{ post.title }}
+        a.title(href="{{ post.url }}") {{ post.title }}
         p.date {{ post.date | date: '%B %d, %Y' }}
         p.description {{ post.description }}
+        a.continue(href="{{ post-url }}") continue reading..
                 
     {% endfor %}
     
