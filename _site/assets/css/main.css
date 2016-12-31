@@ -482,7 +482,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: transparent; }
 
 body {
   background: #F6F6F8;
@@ -1074,7 +1074,7 @@ section.footer {
     display: none;
     width: 50px;
     height: 50px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.02);
     position: fixed;
     right: 3%;
     bottom: 5%;
@@ -1085,7 +1085,8 @@ section.footer {
       margin-top: 10px;
       color: #33cccc; }
     section.footer .button-scroll-top:hover {
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); }
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+      background-color: white; }
 
 div.blog-section {
   width: 100%; }
@@ -1100,7 +1101,7 @@ div.blog-section {
     padding: 0; }
     @media (max-width: 1070px) {
       div.blog-section div.posts {
-        width: 80%; } }
+        width: 90%; } }
     div.blog-section div.posts h2 {
       text-align: center;
       margin: 0;
