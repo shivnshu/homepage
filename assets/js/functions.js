@@ -11,6 +11,7 @@ function isScrolledIntoView(elem) {
 $(document).ready(function (){
 
 
+
       $('.mobile-nav-toggle').click(function(){
         var status = $(this).hasClass('is-open');
         if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
