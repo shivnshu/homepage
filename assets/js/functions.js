@@ -107,7 +107,6 @@ $(document).ready(function (){
        if(isScrolledIntoView("#contact-section")){
            $(".btn-5").css("color", "rgba(128, 0, 0, 0.5)");
            $(".btn-6").css("color", "rgba(128, 0, 0, 1)");
-           console.log("as");
        }
 
     //    if(!isScrolledIntoView("#contact-section")){
