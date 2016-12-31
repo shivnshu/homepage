@@ -41,6 +41,7 @@ $(document).ready(function (){
     $(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
 			$('.button-scroll-top').fadeIn();
+            $('.button-scroll-top').css("background-color", "rgba(0, 0, 0, 0.02)");
 		} else {
 			$('.button-scroll-top').fadeOut();
 		}
