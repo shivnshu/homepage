@@ -613,8 +613,7 @@ body {
           flex-direction: row;
       -ms-flex-align: center;
           align-items: center; }
-    .home-wrap header .site-nav,
-    .home-wrap header .blog-link {
+    .home-wrap header .site-nav {
       display: none; }
     .home-wrap header .logo {
       height: 45px; }
