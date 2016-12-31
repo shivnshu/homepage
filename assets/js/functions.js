@@ -14,18 +14,17 @@ $(document).ready(function (){
 
       $('.mobile-nav-toggle').click(function(){
         var status = $(this).hasClass('is-open');
-        if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
-        else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
+        if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open');
+                $(".blog-link").css("display", "block");
+            }
+        else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open');
+                    $(".blog-link").css("display", "none");
+                }
       });
 
-    //   $('.blog-link').click(function () {
-    //       $('.home-section').css('display', 'none');
-    //       $('.blog-section').css("display", "block");
-    //       $(".blog-link").css("color", "rgba(128, 0, 0, 1)");
-    //       $('.posts h2').addClass('animated fadeInUp')
-    //     //   $('.apost').addClass('animated fadeInUp')
-    //   });
-
+      if(!(window.location.pathname == '/' || window.location.pathname == '/index.html')){
+          $('.mobile-nav-toggle').css("display", "none");
+      }
 
 	$('a[href^="#"]').click(function(event) {
 
