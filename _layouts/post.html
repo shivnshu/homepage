@@ -2,16 +2,66 @@
 layout: default
 ---
 
-<article>
-        <header>
-            <h2>{{ page.title }}</h2>
-            <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-            <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
-            <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
-        </header>
+<style media="screen">
 
-        <div class="entry">{{ content }}</div>
+body, html{
+    padding: 0;
+    margin: 0;
+}
 
-        <footer><!-- additional info --></footer>
+.post-full{
+        position: relative;
+        background-color: white;
+        width: 900px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding: 3%;
 
-</article>
+
+        @media(max-width: 1070px)
+            width: 80%;
+    }
+
+.post-full .title{
+    margin: 0;
+    <!-- padding: 3%; -->
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+
+.post-full .date {
+    <!-- padding-left: 3%; -->
+    <!-- margin-top: 3%; -->
+    margin-top: 10px;
+}
+
+.post-full .entry {
+    margin-top: 3%;
+    text-align: left;
+}
+
+</style>
+
+
+<div class="home-wrap">
+
+
+        {%  include header.html  %}
+
+    <article class="post-full">
+
+                <h2 class="title">{{ page.title }}</h2>
+                <span class="date"><i class="fa fa-clock-o"></i><time datetime="{{page.date|date:"%F"}}"> {{page.date|date:"%b %d, %Y"}}</time></span><br/>
+                <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
+                <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+
+            <div class="entry">{{ content }}</div>
+
+    </article>
+
+</div>

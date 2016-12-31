@@ -7,29 +7,79 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/assets/css/animate.css">
 
 
     </head>
     <body>
 
-          <article>
-        <header>
-            <h2>First blog</h2>
-            <span><i class="icon-clock"></i><time datetime="2011-12-31">Dec 31, 2011</time></span><br/>
-            <span class="category"><i class="icon-tag"></i> </span><br/>
-            <span class="author"><i class="icon-user"></i> </span>
-        </header>
+          <style media="screen">
 
-        <div class="entry"><p>firstpost
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.post-full{
+        position: relative;
+        background-color: white;
+        width: 900px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        padding: 3%;
+
+
+        @media(max-width: 1070px)
+            width: 80%;
+    }
+
+.post-full .title{
+    margin: 0;
+    <!-- padding: 3%; -->
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+
+.post-full .date {
+    <!-- padding-left: 3%; -->
+    <!-- margin-top: 3%; -->
+    margin-top: 10px;
+}
+
+.post-full .entry {
+    margin-top: 3%;
+    text-align: left;
+}
+
+</style>
+
+
+<div class="home-wrap">
+
+
+        <div class="mobile-nav"><ul><li><a href="#about-section" class="btn-1">About</a></li><li><a href="#skills-section" class="btn-2">Skills</a></li><li><a href="#projects-section" class="btn-3">Projects</a></li><li><a href="#education-section" class="btn-4">Education</a></li><li><a href="#achievements-section-btn" class="btn-5">Achievements</a></li><li><a href="#contact-section" class="btn-6">Contact</a></li></ul></div><header><div class="header-position"><a href="/index.html" class="logo">Shivanshu Singh</a><nav class="site-nav"><ul><li><a href="#about-section" class="btn-1">About</a></li><li><a href="#skills-section" class="btn-2">Skills</a></li><li><a href="#projects-section" class="btn-3">Projects</a></li><li><a href="#education-section" class="btn-4">Education</a></li><li><a href="#achievements-section-btn" class="btn-5">Achievements</a></li><li><a href="#contact-section" class="btn-6">Contact</a></li></ul></nav><a href="/blog.html" class="blog-link">My Blog</a><div class="mobile-nav-toggle"><span></span></div></div></header>
+
+    <article class="post-full">
+
+                <h2 class="title">First blog</h2>
+                <span class="date"><i class="fa fa-clock-o"></i><time datetime="2011-12-31"> Dec 31, 2011</time></span><br/>
+                <span class="category"><i class="icon-tag"></i> </span><br/>
+                <span class="author"><i class="icon-user"></i> </span>
+
+            <div class="entry"><p>firstpost
 firstpostfirstpostfirstpostfirstpostfirstpost</p>
 </div>
 
-        <footer><!-- additional info --></footer>
+    </article>
 
-</article>
+</div>
 
 
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
