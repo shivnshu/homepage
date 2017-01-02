@@ -10,6 +10,10 @@ body, html{
     margin: 0;
 }
 
+p{
+    line-height: 1.9em
+}
+
 .post-full{
         position: relative;
         background-color: white;
@@ -71,7 +75,6 @@ body, html{
                 <h2 class="title">{{ page.title }}</h2>
                 <span class="date"><i class="fa fa-clock-o"></i><time datetime="{{page.date|date:"%F"}}" style=" font-weight: 700">  {{page.date|date:"%b %d, %Y"}}</time></span><br/>
                 <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
-                <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
 
             <div class="entry">{{ content }}</div>
             <div id="disqus_thread"></div>
