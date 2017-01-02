@@ -10,4 +10,4 @@
 2. Once inside the directory, just run `npm install` and it will take care of all dependencies.
 
 ##Usage
-Just run `gulp` once inside the directory, and you are ready to rock!!
+Just run `gulp` and you are ready to rock!!
