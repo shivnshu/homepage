@@ -6,7 +6,7 @@ div.posts#recent-posts
     div.apost.inVisible
         a.title(href="{{ post.url }}") {{ post.title }}
         p.date {{ post.date | date: '%B %d, %Y' }}
-        p.description {{ post.description }}
+        p.description {{ post.excerpt }}
         a.continue(href="{{ post.url }}") continue reading..
                 
     {% endfor %}
