@@ -610,6 +610,13 @@
 \end{center}
 }
 
+% Define environment for miscellaneous
+\newenvironment{cvmiscellaneous}{
+    \vspace{4.0mm}
+    \centering\scriptsize
+}{}
+
+
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
