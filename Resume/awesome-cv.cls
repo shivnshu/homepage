@@ -610,8 +610,23 @@
 \end{center}
 }
 
+% For miscellaneous
+\newcommand*{\misentry}[5]{%
+  \vspace{-8.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+  \end{tabular*}%
+}
 % Define environment for miscellaneous
 \newenvironment{cvmiscellaneous}{
+\vspace{-4.0mm}
+
     \begin{justify}
     \begin{itemize}[leftmargin=2ex]
       \setlength{\parskip}{0pt}
