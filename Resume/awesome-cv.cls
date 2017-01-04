@@ -605,9 +605,17 @@
 \newenvironment{cvcourses}{
 \begin{center}
     \centering\footnotesize
+    \fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}
     \begin{tabular}{L{7.5cm} L{7.5cm}}}{
    \end{tabular}
 \end{center}
+}
+
+\newcommand*{\coursesentry}[1]{%
+  % \vspace{-8.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#1}}
 }
 
 % For miscellaneous
