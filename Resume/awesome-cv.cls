@@ -601,6 +601,51 @@
   \end{tabular*}
 }
 
+% Define environment of cvcourses
+\newenvironment{cvcourses}{
+\begin{center}
+    \centering\footnotesize
+    \fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}
+    \begin{tabular}{L{7.5cm} L{7.5cm}}}{
+   \end{tabular}
+\end{center}
+}
+
+\newcommand*{\coursesentry}[1]{%
+  % \vspace{-8.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#1}}
+}
+
+% For miscellaneous
+\newcommand*{\misentry}[5]{%
+  \vspace{-8.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+  \end{tabular*}%
+}
+% Define environment for miscellaneous
+\newenvironment{cvmiscellaneous}{
+\vspace{-4.0mm}
+
+    \begin{justify}
+    \begin{itemize}[leftmargin=2ex]
+      \setlength{\parskip}{0pt}
+      \renewcommand{\labelitemi}{\bullet}
+    }{%
+    \end{itemize}
+    \end{justify}
+    \vspace{-4.0mm}
+}
+
+
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
