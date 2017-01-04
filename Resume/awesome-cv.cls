@@ -604,7 +604,7 @@
 % Define environment of cvcourses
 \newenvironment{cvcourses}{
 \begin{center}
-    \centering\scriptsize
+    \centering\footnotesize
     \begin{tabular}{L{7.5cm} L{7.5cm}}}{
    \end{tabular}
 \end{center}
@@ -612,9 +612,15 @@
 
 % Define environment for miscellaneous
 \newenvironment{cvmiscellaneous}{
-    \vspace{4.0mm}
-    \centering\scriptsize
-}{}
+    \begin{justify}
+    \begin{itemize}[leftmargin=2ex]
+      \setlength{\parskip}{0pt}
+      \renewcommand{\labelitemi}{\bullet}
+    }{%
+    \end{itemize}
+    \end{justify}
+    \vspace{-4.0mm}
+}
 
 
 % Define an environment for cvhonor
