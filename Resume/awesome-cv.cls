@@ -601,6 +601,15 @@
   \end{tabular*}
 }
 
+% Define environment of cvcourses
+\newenvironment{cvcourses}{
+\begin{center}
+    \centering\scriptsize
+    \begin{tabular}{L{7.5cm} L{7.5cm}}}{
+   \end{tabular}
+\end{center}
+}
+
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
