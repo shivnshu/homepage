@@ -1,6 +1,8 @@
 # My personal homepage and blog
 
 ##Requirements
+* [Ruby](https://www.ruby-lang.org/)
+* [RedCarpet](https://github.com/vmg/redcarpet)
 * [Jekyll](https://jekyllrb.com/)
 * [NodeJS](https://nodejs.org)
 * [Gulp](http://gulpjs.com/)
