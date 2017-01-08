@@ -2,12 +2,12 @@
 layout: default
 comments: true
 ---
-
 <style media="screen">
 
 body, html{
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
@@ -70,7 +70,7 @@ p{
 
         {%  include header.html  %}
 
-    <article class="post-full">
+    <article class="post-full" style="font-size: 16px;">
 
                 <h2 class="title">{{ page.title }}</h2>
                 <span class="date"><i class="fa fa-clock-o"></i><time datetime="{{page.date|date:"%F"}}" style=" font-weight: 700">  {{page.date|date:"%b %d, %Y"}}</time></span><br/>
