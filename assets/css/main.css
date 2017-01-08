@@ -8,7 +8,7 @@
 /* Document
    ========================================================================== */
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans",sans-serif;
   /* 1 */
   line-height: 1.15;
   /* 2 */
@@ -870,6 +870,12 @@ section.skills div.courses-div .courses {
         justify-content: space-around; }
     section.skills div.courses-div .courses ul li {
       display: inline; }
+  section.skills div.courses-div .courses p {
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+    margin-top: -10px; }
 
 section.projects-section h2 {
   margin-top: 5%;
@@ -1117,6 +1123,7 @@ div.blog-section {
       font-weight: 800; }
     div.blog-section div.posts hr {
       margin: 30px 5%;
+      margin-top: 0;
       border: 0;
       height: 2px;
       background-image: linear-gradient(to right, rgba(192, 63, 63, 0), rgba(192, 63, 63, 0.75), transparent); }
