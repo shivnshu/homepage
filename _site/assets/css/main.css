@@ -889,6 +889,12 @@ section.projects-section div.projects {
   @media (max-width: 1070px) {
     section.projects-section div.projects {
       width: 97%; } }
+  section.projects-section div.projects a:hover {
+    text-decoration: underline;
+    color: #BD5248; }
+  section.projects-section div.projects a:visited {
+    text-decoration: underline;
+    color: #BD5248; }
   section.projects-section div.projects div.project-header {
     width: 100%;
     height: 10px;
