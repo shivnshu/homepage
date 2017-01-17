@@ -904,11 +904,14 @@ section.projects-section div.projects {
       font-size: 15px;
       color: #878787; }
     section.projects-section div.projects div.project-first p {
-      margin: 10px 0;
       color: #878787; }
+    section.projects-section div.projects div.project-first .dis {
+      margin: 10px 7%;
+      text-align: left; }
     section.projects-section div.projects div.project-first .date {
       font-weight: 700;
-      color: black; }
+      color: black;
+      margin: 10px 0; }
   section.projects-section div.projects div.project-second {
     background-color: white;
     width: 50%;
@@ -921,11 +924,14 @@ section.projects-section div.projects {
       font-size: 15px;
       color: #878787; }
     section.projects-section div.projects div.project-second p {
-      margin: 10px 0;
       color: #878787; }
+    section.projects-section div.projects div.project-second .dis {
+      margin: 10px 7%;
+      text-align: left; }
     section.projects-section div.projects div.project-second .date {
       font-weight: 700;
-      color: black; }
+      color: black;
+      margin: 10px 0; }
   section.projects-section div.projects div.project-third {
     background-color: white;
     width: 50%;
@@ -937,11 +943,73 @@ section.projects-section div.projects {
       font-size: 15px;
       color: #878787; }
     section.projects-section div.projects div.project-third p {
-      margin: 10px 0;
       color: #878787; }
+    section.projects-section div.projects div.project-third .dis {
+      margin: 10px 7%;
+      text-align: left; }
     section.projects-section div.projects div.project-third .date {
       font-weight: 700;
+      margin: 10px 0;
       color: black; }
+  section.projects-section div.projects div.project-fourth {
+    background-color: white;
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+    padding-bottom: 20px; }
+    section.projects-section div.projects div.project-fourth h4 {
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-fourth .course {
+      font-size: 15px;
+      color: #878787; }
+    section.projects-section div.projects div.project-fourth p {
+      color: #878787; }
+    section.projects-section div.projects div.project-fourth .dis {
+      margin: 10px 7%;
+      text-align: left; }
+    section.projects-section div.projects div.project-fourth .date {
+      font-weight: 700;
+      color: black;
+      margin: 10px 0; }
+  section.projects-section div.projects div.project-fifth {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px; }
+    section.projects-section div.projects div.project-fifth h4 {
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-fifth .course {
+      font-size: 15px;
+      color: #878787; }
+    section.projects-section div.projects div.project-fifth p {
+      color: #878787; }
+    section.projects-section div.projects div.project-fifth .dis {
+      margin: 10px 7%;
+      text-align: left; }
+    section.projects-section div.projects div.project-fifth .date {
+      font-weight: 700;
+      margin: 10px 0;
+      color: black; }
+  section.projects-section div.projects div.project-sixth {
+    background-color: white;
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+    padding-bottom: 20px; }
+    section.projects-section div.projects div.project-sixth h4 {
+      margin: 10px 0; }
+    section.projects-section div.projects div.project-sixth .course {
+      font-size: 15px;
+      color: #878787; }
+    section.projects-section div.projects div.project-sixth p {
+      color: #878787; }
+    section.projects-section div.projects div.project-sixth .dis {
+      margin: 10px 7%;
+      text-align: left; }
+    section.projects-section div.projects div.project-sixth .date {
+      font-weight: 700;
+      color: black;
+      margin: 10px 0; }
 
 @media (max-width: 670px) {
   div.projects div.project-header {
@@ -952,7 +1020,15 @@ section.projects-section div.projects {
     width: 100% !important;
     margin: 0 !important; }
   div.projects div.project-third {
-    width: 100% !important; } }
+    width: 100% !important; }
+  div.projects div.project-fourth {
+    width: 100% !important;
+    margin: 0 !important; }
+  div.projects div.project-fifth {
+    width: 100% !important; }
+  div.projects div.project-fourth {
+    width: 100% !important;
+    margin: 0 !important; } }
 
 section.education-section h2 {
   text-align: center;
