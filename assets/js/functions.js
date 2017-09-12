@@ -93,18 +93,6 @@ $(document).ready(function (){
            $(".btn-4").css("color", "rgba(128, 0, 0, 0.5)");
        }
 
-       if(isScrolledIntoView("#education-section")){
-           $(".btn-3").css("color", "rgba(128, 0, 0, 0.5)");
-           $(".btn-4").css("color", "rgba(128, 0, 0, 1)");
-           $(".btn-5").css("color", "rgba(128, 0, 0, 0.5)");
-       }
-
-       if(isScrolledIntoView("#achievements-section-btn")){
-           $(".btn-4").css("color", "rgba(128, 0, 0, 0.5)");
-           $(".btn-5").css("color", "rgba(128, 0, 0, 1)");
-           $(".btn-6").css("color", "rgba(128, 0, 0, 0.5)");
-       }
-
        if(isScrolledIntoView("#contact-section")){
            $(".btn-5").css("color", "rgba(128, 0, 0, 0.5)");
            $(".btn-6").css("color", "rgba(128, 0, 0, 1)");

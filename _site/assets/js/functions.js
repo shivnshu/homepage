@@ -26,31 +26,31 @@ $(document).ready(function (){
           $('.mobile-nav-toggle').css("display", "none");
       }
 
-	$('a[href^="#"]').click(function(event) {
+    $('a[href^="#"]').click(function(event) {
 
-	    var target = $( $(this).attr('href') );
+        var target = $( $(this).attr('href') );
 
-	    if( target.length ) {
-	        event.preventDefault();
-	        $('html, body').animate({
-	            scrollTop: target.offset().top
-	        }, 500);
-	    }
-	});
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 500);
+        }
+    });
 
     $(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.button-scroll-top').fadeIn();
+        if ($(this).scrollTop() > 100) {
+            $('.button-scroll-top').fadeIn();
             $('.button-scroll-top').css("background-color", "rgba(0, 0, 0, 0.02)");
-		} else {
-			$('.button-scroll-top').fadeOut();
-		}
-	});
+        } else {
+            $('.button-scroll-top').fadeOut();
+        }
+    });
 
     $('#scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
 
 
     $(window).scroll(function () {
@@ -91,18 +91,6 @@ $(document).ready(function (){
            $(".btn-2").css("color", "rgba(128, 0, 0, 0.5)");
            $(".btn-3").css("color", "rgba(128, 0, 0, 1)");
            $(".btn-4").css("color", "rgba(128, 0, 0, 0.5)");
-       }
-
-       if(isScrolledIntoView("#education-section")){
-           $(".btn-3").css("color", "rgba(128, 0, 0, 0.5)");
-           $(".btn-4").css("color", "rgba(128, 0, 0, 1)");
-           $(".btn-5").css("color", "rgba(128, 0, 0, 0.5)");
-       }
-
-       if(isScrolledIntoView("#achievements-section-btn")){
-           $(".btn-4").css("color", "rgba(128, 0, 0, 0.5)");
-           $(".btn-5").css("color", "rgba(128, 0, 0, 1)");
-           $(".btn-6").css("color", "rgba(128, 0, 0, 0.5)");
        }
 
        if(isScrolledIntoView("#contact-section")){
