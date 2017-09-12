@@ -3,20 +3,18 @@ mixin nav-content()
         li: a.btn-1(href="#about-section") About
         li: a.btn-2(href="#skills-section") Skills
         li: a.btn-3(href="#projects-section") Projects
-        li: a.btn-4(href="#education-section") Education
-        li: a.btn-5(href="#achievements-section-btn") Achievements
         li: a.btn-6(href="#contact-section") Contact
 
 .mobile-nav
     +nav-content()
-    
+
 header
     .header-position
         a.logo(href="{{ site.url }}/index.html") Shivanshu Singh
-        
+
         nav.site-nav
             +nav-content()
-            
+
         a.blog-link(href="{{ site.url }}/blog.html") Blog
-        
+
         .mobile-nav-toggle: span
