@@ -1,3 +1,5 @@
+# DEPRECATED
+Visit https://github.com/shivnshu/blog
 # My personal homepage and blog
 
 ## Requirements
